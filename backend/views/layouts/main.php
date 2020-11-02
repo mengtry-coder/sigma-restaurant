@@ -4,6 +4,7 @@
 /* @var $content string */
 
 use backend\assets\AppAsset;
+use app\models\User;
 use backend\models\Subscriber;
 use backend\models\Message;
 use common\widgets\Alert;
@@ -300,7 +301,7 @@ $this->registerJs($js, yii\web\View::POS_READY);
         </div>
         <div class="modal-body">Are you sure you want to logout?</div>
         <div class="modal-footer">
-          <button class="btn btn-success mt-4" type="button" data-dismiss="modal">Cancel</button>
+          <button class="btn btn-success" type="button" data-dismiss="modal">Cancel</button>
             <?=Html::a('Logout', ['site/logout'], ['class' => 'btn btn-primary', 'data' => ['method' => 'post']])?>
         </div>
       </div>

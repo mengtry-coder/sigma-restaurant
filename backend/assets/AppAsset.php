@@ -23,16 +23,13 @@ class AppAsset extends AssetBundle
     public $js = [
         'assets/vendor/jquery/jquery.js',
         'assets/vendor/jquery-easing/jquery.easing.min.js',
-        'assets/vendor/chart.js/Chart.min.js',
-        'assets/js/demo/chart-area-demo.js',
-        'assets/js/demo/chart-pie-demo.js',
-        'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
 
+        'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
         // 'assets/vendor/jquery/jquery.min.js',
 
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        // 'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap\BootstrapAsset',
     ];
 }
