@@ -6,8 +6,8 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use backend\assets\AppAsset;
-AppAsset::register($this);
+use backend\assets\DashboardAsset;
+DashboardAsset::register($this);
 ?>
 <!-- Nested Row within Card Body -->
 <div class="row">

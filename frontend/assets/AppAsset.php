@@ -22,18 +22,18 @@ class AppAsset extends AssetBundle
         'assets/css/style_new.css',
     ];
     public $js = [
-        'assets/vendor/jquery/jquery.min.js',
         'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-        'assets/vendor/jquery.easing/jquery.easing.min.js',
+        // 'assets/vendor/jquery.easing/jquery.easing.min.js',
         'assets/vendor/php-email-form/validate.js',
         'assets/vendor/owl.carousel/owl.carousel.min.js',
         'assets/vendor/isotope-layout/isotope.pkgd.min.js',
         'assets/vendor/venobox/venobox.min.js',
         'assets/vendor/aos/aos.js',
         'assets/js/main.js',
+        // 'assets/vendor/jquery/jquery.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        // 'yii\bootstrap\BootstrapAsset',
     ];
 }

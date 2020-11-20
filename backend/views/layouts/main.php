@@ -3,7 +3,7 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use backend\assets\AppAsset;
+use backend\assets\DashboardAsset;
 use app\models\User;
 use backend\models\Subscriber;
 use backend\models\Message;
@@ -11,7 +11,8 @@ use common\widgets\Alert;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
-AppAsset::register($this);
+
+DashboardAsset::register($this);
 if (Yii::$app->user->isGuest) {
     return Yii::$app->getResponse()->redirect(['site/login'], 302);
 }
@@ -302,7 +303,7 @@ $this->registerJs($js, yii\web\View::POS_READY);
         <div class="modal-body">Are you sure you want to logout?</div>
         <div class="modal-footer">
           <button class="btn btn-success" type="button" data-dismiss="modal">Cancel</button>
-            <?=Html::a('Logout', ['site/logout'], ['class' => 'btn btn-primary', 'data' => ['method' => 'post']])?>
+            <?=Html::a('Logout', ['site/logout'], ['class' => 'btn btn-primary mt-0', 'data' => ['method' => 'post']])?>
         </div>
       </div>
     </div>

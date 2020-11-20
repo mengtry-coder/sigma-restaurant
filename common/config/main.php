@@ -9,5 +9,17 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        
+        'assetManager' => [  
+
+            'bundles' => [
+        
+                'yii\bootstrap\BootstrapPluginAsset' => ['js'=>[]], 
+            
+                'yii\bootstrap\BootstrapAsset' => ['css' => []],   
+        
+            ]
+        
+        ]
     ],
 ];

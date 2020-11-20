@@ -4701,9 +4701,9 @@ input[type="button"].btn-block {
     width: 100%;
   }
 }
-ul#accordionSidebar {
+/* ul#accordionSidebar {
     z-index: 10000;
-}
+} */
 .accordion > .card {
   overflow: hidden;
 }
