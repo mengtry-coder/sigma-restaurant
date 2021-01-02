@@ -47525,3 +47525,1799 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1605857253.5594
     'REQUEST_TIME' => 1605857253
 ]
+2020-11-24 16:36:34 [::1][4][uhvnvf3mej3imie73sn45ach5i][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-11-24 16:36:34 [::1][4][uhvnvf3mej3imie73sn45ach5i][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'uhvnvf3mej3imie73sn45ach5i'
+    '_csrf-backend' => '7d2064a93fc4fdba376cb6b17df1887c426bfd3e7c0baa26c6d1542225dd4313a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l-eIsTiGshhRPBWIPKqsMDNBKAHGKe3_\";}'
+    'advanced-frontend' => '53eg2h0qc7v7lcotlvkbaks0gu'
+    '_csrf-frontend' => 'a3f984a2c7dadf6512f1f7a3226aff6865b604478a36f1595fdd00bd014c9168a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BGT8DMAyNQNwpw78MsVAf11idfuJ5jaw\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '4cSASPGrHiQDKGbJqtNN8qXm4XLACC573tpGzlT8rr-N6eUBgv93Y3BADpv6kRq79a2QAY1MYDmVmw6JH5md4A=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=uhvnvf3mej3imie73sn45ach5i; _csrf-backend=7d2064a93fc4fdba376cb6b17df1887c426bfd3e7c0baa26c6d1542225dd4313a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l-eIsTiGshhRPBWIPKqsMDNBKAHGKe3_%22%3B%7D; advanced-frontend=53eg2h0qc7v7lcotlvkbaks0gu; _csrf-frontend=a3f984a2c7dadf6512f1f7a3226aff6865b604478a36f1595fdd00bd014c9168a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BGT8DMAyNQNwpw78MsVAf11idfuJ5jaw%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '56446'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606232194.5097
+    'REQUEST_TIME' => 1606232194
+]
+2020-11-24 16:36:55 [::1][4][uhvnvf3mej3imie73sn45ach5i][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-11-24 16:36:55 [::1][4][uhvnvf3mej3imie73sn45ach5i][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'uhvnvf3mej3imie73sn45ach5i'
+    '_csrf-backend' => '7d2064a93fc4fdba376cb6b17df1887c426bfd3e7c0baa26c6d1542225dd4313a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l-eIsTiGshhRPBWIPKqsMDNBKAHGKe3_\";}'
+    'advanced-frontend' => '53eg2h0qc7v7lcotlvkbaks0gu'
+    '_csrf-frontend' => 'a3f984a2c7dadf6512f1f7a3226aff6865b604478a36f1595fdd00bd014c9168a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BGT8DMAyNQNwpw78MsVAf11idfuJ5jaw\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'tngvzxUfmqmDBVMTuTHicU_v6bRyHDkkOq7E-LeqEqPaVUqGZkvz7vBtO0Hpc7U4H6SYxz9Yd2Zx74y__M8h_A=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=uhvnvf3mej3imie73sn45ach5i; _csrf-backend=7d2064a93fc4fdba376cb6b17df1887c426bfd3e7c0baa26c6d1542225dd4313a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l-eIsTiGshhRPBWIPKqsMDNBKAHGKe3_%22%3B%7D; advanced-frontend=53eg2h0qc7v7lcotlvkbaks0gu; _csrf-frontend=a3f984a2c7dadf6512f1f7a3226aff6865b604478a36f1595fdd00bd014c9168a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BGT8DMAyNQNwpw78MsVAf11idfuJ5jaw%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '56451'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606232215.2906
+    'REQUEST_TIME' => 1606232215
+]
+2020-11-24 16:43:00 [::1][4][uhvnvf3mej3imie73sn45ach5i][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\update.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('update', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(202): yii\base\Controller->render('update', Array)
+#9 [internal function]: backend\controllers\MenuController->actionUpdate('1')
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/update', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-11-24 16:43:00 [::1][4][uhvnvf3mej3imie73sn45ach5i][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'uhvnvf3mej3imie73sn45ach5i'
+    '_csrf-backend' => '7d2064a93fc4fdba376cb6b17df1887c426bfd3e7c0baa26c6d1542225dd4313a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l-eIsTiGshhRPBWIPKqsMDNBKAHGKe3_\";}'
+    'advanced-frontend' => '53eg2h0qc7v7lcotlvkbaks0gu'
+    '_csrf-frontend' => 'a3f984a2c7dadf6512f1f7a3226aff6865b604478a36f1595fdd00bd014c9168a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BGT8DMAyNQNwpw78MsVAf11idfuJ5jaw\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '5dqfvZQO7Nws0u71RDEe8tKS1NKqoYDSvRohP-GtZj2J9_r051qFm1-6hqcUc0m7gtmloeflzpD2W2l4qshVYg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=uhvnvf3mej3imie73sn45ach5i; _csrf-backend=7d2064a93fc4fdba376cb6b17df1887c426bfd3e7c0baa26c6d1542225dd4313a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l-eIsTiGshhRPBWIPKqsMDNBKAHGKe3_%22%3B%7D; advanced-frontend=53eg2h0qc7v7lcotlvkbaks0gu; _csrf-frontend=a3f984a2c7dadf6512f1f7a3226aff6865b604478a36f1595fdd00bd014c9168a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BGT8DMAyNQNwpw78MsVAf11idfuJ5jaw%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '56550'
+    'REDIRECT_URL' => '/sigma/admin/menu/update'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/sigma/admin/menu/update?id=1'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606232580.7841
+    'REQUEST_TIME' => 1606232580
+]
+2020-11-25 16:16:14 [::1][4][o0m79i9r2b57trdav5a3uo8nas][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-11-25 16:16:14 [::1][4][o0m79i9r2b57trdav5a3uo8nas][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-frontend' => 'jkkrfrcbc7l4i62cd1lhd3ogn0'
+    '_csrf-frontend' => 'c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS\";}'
+    'advanced-backend' => 'o0m79i9r2b57trdav5a3uo8nas'
+    '_csrf-backend' => '12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL\";}'
+    'custom-content-index_page' => '16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba:2:{i:0;s:25:\"custom-content-index_page\";i:1;i:-1;}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'O76ySQsKNC3rAs-rb-hucsHV_7haKUKtFqehAf78swB00oQsWXlAGqBJg5snuhgegIq69i5GMc970ZFyzs3LTA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-frontend=jkkrfrcbc7l4i62cd1lhd3ogn0; _csrf-frontend=c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS%22%3B%7D; advanced-backend=o0m79i9r2b57trdav5a3uo8nas; _csrf-backend=12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL%22%3B%7D; custom-content-index_page=16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba%3A2%3A%7Bi%3A0%3Bs%3A25%3A%22custom-content-index_page%22%3Bi%3A1%3Bi%3A-1%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53660'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606317374.2475
+    'REQUEST_TIME' => 1606317374
+]
+2020-11-25 16:16:22 [::1][4][o0m79i9r2b57trdav5a3uo8nas][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-11-25 16:16:22 [::1][4][o0m79i9r2b57trdav5a3uo8nas][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-frontend' => 'jkkrfrcbc7l4i62cd1lhd3ogn0'
+    '_csrf-frontend' => 'c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS\";}'
+    'advanced-backend' => 'o0m79i9r2b57trdav5a3uo8nas'
+    '_csrf-backend' => '12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL\";}'
+    'custom-content-index_page' => '16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba:2:{i:0;s:25:\"custom-content-index_page\";i:1;i:-1;}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'E2TtRmNJ2B57_g-CuicUUzqpxo7XLx_F46x9cvhqA8lcCNsjMTqsKTC1Q7LydWI_e_aDwKNAbKeO2k0ByFt7hQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-frontend=jkkrfrcbc7l4i62cd1lhd3ogn0; _csrf-frontend=c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS%22%3B%7D; advanced-backend=o0m79i9r2b57trdav5a3uo8nas; _csrf-backend=12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL%22%3B%7D; custom-content-index_page=16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba%3A2%3A%7Bi%3A0%3Bs%3A25%3A%22custom-content-index_page%22%3Bi%3A1%3Bi%3A-1%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53671'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606317382.579
+    'REQUEST_TIME' => 1606317382
+]
+2020-11-25 16:16:30 [::1][4][o0m79i9r2b57trdav5a3uo8nas][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-11-25 16:16:30 [::1][4][o0m79i9r2b57trdav5a3uo8nas][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-frontend' => 'jkkrfrcbc7l4i62cd1lhd3ogn0'
+    '_csrf-frontend' => 'c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS\";}'
+    'advanced-backend' => 'o0m79i9r2b57trdav5a3uo8nas'
+    '_csrf-backend' => '12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL\";}'
+    'custom-content-index_page' => '16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba:2:{i:0;s:25:\"custom-content-index_page\";i:1;i:-1;}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '5HohAYRQcehlGiPTCDfwan5MkO2btRzX6MFpWL5W1YerFhdk1iMF3y5Rb-NAZYYGPxPVo-_ab7WFt1krjmetyw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-frontend=jkkrfrcbc7l4i62cd1lhd3ogn0; _csrf-frontend=c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS%22%3B%7D; advanced-backend=o0m79i9r2b57trdav5a3uo8nas; _csrf-backend=12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL%22%3B%7D; custom-content-index_page=16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba%3A2%3A%7Bi%3A0%3Bs%3A25%3A%22custom-content-index_page%22%3Bi%3A1%3Bi%3A-1%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53676'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606317390.8378
+    'REQUEST_TIME' => 1606317390
+]
+2020-11-25 16:16:41 [::1][4][o0m79i9r2b57trdav5a3uo8nas][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\update.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('update', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(202): yii\base\Controller->render('update', Array)
+#9 [internal function]: backend\controllers\MenuController->actionUpdate('1')
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/update', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-11-25 16:16:41 [::1][4][o0m79i9r2b57trdav5a3uo8nas][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-frontend' => 'jkkrfrcbc7l4i62cd1lhd3ogn0'
+    '_csrf-frontend' => 'c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS\";}'
+    'advanced-backend' => 'o0m79i9r2b57trdav5a3uo8nas'
+    '_csrf-backend' => '12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL\";}'
+    'custom-content-index_page' => '16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba:2:{i:0;s:25:\"custom-content-index_page\";i:1;i:-1;}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '5HohAYRQcehlGiPTCDfwan5MkO2btRzX6MFpWL5W1YerFhdk1iMF3y5Rb-NAZYYGPxPVo-_ab7WFt1krjmetyw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-frontend=jkkrfrcbc7l4i62cd1lhd3ogn0; _csrf-frontend=c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS%22%3B%7D; advanced-backend=o0m79i9r2b57trdav5a3uo8nas; _csrf-backend=12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL%22%3B%7D; custom-content-index_page=16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba%3A2%3A%7Bi%3A0%3Bs%3A25%3A%22custom-content-index_page%22%3Bi%3A1%3Bi%3A-1%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53685'
+    'REDIRECT_URL' => '/sigma/admin/menu/update'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/sigma/admin/menu/update?id=1'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606317401.1748
+    'REQUEST_TIME' => 1606317401
+]
+2020-11-25 16:16:51 [::1][4][o0m79i9r2b57trdav5a3uo8nas][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\update.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('update', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(202): yii\base\Controller->render('update', Array)
+#9 [internal function]: backend\controllers\MenuController->actionUpdate('1')
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/update', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-11-25 16:16:51 [::1][4][o0m79i9r2b57trdav5a3uo8nas][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-frontend' => 'jkkrfrcbc7l4i62cd1lhd3ogn0'
+    '_csrf-frontend' => 'c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS\";}'
+    'advanced-backend' => 'o0m79i9r2b57trdav5a3uo8nas'
+    '_csrf-backend' => '12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL\";}'
+    'custom-content-index_page' => '16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba:2:{i:0;s:25:\"custom-content-index_page\";i:1;i:-1;}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'b9tmt4T9gWzn0SBb6wenfHrR_WGlKvWtX7TVeUkNLcUgt1DS1o71W6yabGujVdEQO464L9FFhs8ywuUKeTxViQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-frontend=jkkrfrcbc7l4i62cd1lhd3ogn0; _csrf-frontend=c956f5acd88db2ece450bd5852463c71aaafedfa1a8e555e93ac0a110f998b19a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CUBOzFE7fp8kNMEUkbSRUUIOgVh6XMhS%22%3B%7D; advanced-backend=o0m79i9r2b57trdav5a3uo8nas; _csrf-backend=12b4a25f856899f9b8fbfb0b09c86bf85ee1de577dfecffaa6156bc42804399ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Ol6eRst7KKL0HRvlA_ENtosbmv0s01xL%22%3B%7D; custom-content-index_page=16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba%3A2%3A%7Bi%3A0%3Bs%3A25%3A%22custom-content-index_page%22%3Bi%3A1%3Bi%3A-1%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53699'
+    'REDIRECT_URL' => '/sigma/admin/menu/update'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/sigma/admin/menu/update?id=1'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606317411.1198
+    'REQUEST_TIME' => 1606317411
+]
+2020-11-27 17:20:43 [::1][4][jqphnvod5ui55inpd5mb65o9df][error][Error] Error: Class 'backend\controllers\MyFunction' not found in C:\xampp\htdocs\sigma\backend\controllers\TestimonialController.php:144
+Stack trace:
+#0 [internal function]: backend\controllers\TestimonialController->actionCreate()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('testimonial/cre...', Array)
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#7 {main}
+2020-11-27 17:20:42 [::1][4][jqphnvod5ui55inpd5mb65o9df][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-backend' => 'xjL5Exfr_MpSD9Ri-V0uMEdaW_nR-T0GjSVVPwV-LWX-a5EnRLSQrWJLsSGca2pgATkDnqaYVna5bhd1ajlALg=='
+    'Testimonial' => [
+        'file' => ''
+        'name' => 'adsfa'
+        'position' => 'asdf'
+        'description' => 'asfd'
+        'status' => '1'
+    ]
+]
+
+$_FILES = [
+    'Testimonial' => [
+        'name' => [
+            'file' => '1200px-Provincial_Boundaries_in_Cambodia.svg.png'
+        ]
+        'type' => [
+            'file' => 'image/png'
+        ]
+        'tmp_name' => [
+            'file' => 'C:\\xampp\\tmp\\php7FC0.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 334593
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'custom-content-index_page' => '16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba:2:{i:0;s:25:\"custom-content-index_page\";i:1;i:-1;}'
+    'advanced-backend' => 'jqphnvod5ui55inpd5mb65o9df'
+    '_csrf-backend' => '03da157b8a8a5a72a0cc7247014d51456ad558d5949810d26d1da8744bfeb1e3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8Yh4S_lg0DeCe6DPFcXgwakp4KBJoGmK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '335668'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryidtKcQ6mcBdI48jb'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/testimonial/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; custom-content-index_page=16e608e3a577daa6f93d2858f484a31f3859b441d077d327a37ee754749cfdfba%3A2%3A%7Bi%3A0%3Bs%3A25%3A%22custom-content-index_page%22%3Bi%3A1%3Bi%3A-1%3B%7D; advanced-backend=jqphnvod5ui55inpd5mb65o9df; _csrf-backend=03da157b8a8a5a72a0cc7247014d51456ad558d5949810d26d1da8744bfeb1e3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228Yh4S_lg0DeCe6DPFcXgwakp4KBJoGmK%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '49822'
+    'REDIRECT_URL' => '/sigma/admin/testimonial/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/testimonial/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606494042.9488
+    'REQUEST_TIME' => 1606494042
+]
+2020-12-02 08:33:16 [::1][4][r9qfo6j54673a454t45016br10][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-12-02 08:33:16 [::1][4][r9qfo6j54673a454t45016br10][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'r9qfo6j54673a454t45016br10'
+    '_csrf-backend' => '7e128e1e4cf5011160f01e8c083610873913d954054e8c07ff3a3cc414f89c58a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"3oeQ1WXvzoBZ-BBZQjKG2nmWTQft0XRt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'RrlQx2xhQeQt3A_rNTp2xMDoRFFITtLR93uFWM_pz4l11jWWXTYZklezTbEYeDSekYIPFnogv4ajKuMs_7Gd_Q=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=r9qfo6j54673a454t45016br10; _csrf-backend=7e128e1e4cf5011160f01e8c083610873913d954054e8c07ff3a3cc414f89c58a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%223oeQ1WXvzoBZ-BBZQjKG2nmWTQft0XRt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53950'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1606894396.5273
+    'REQUEST_TIME' => 1606894396
+]
+2020-12-04 09:30:32 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-12-04 09:30:32 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'fl5Vugijap_v-yKfXg_Io7pMntJKubv26zOQR16YjHBGEA_jecQu8J-ibNEvW7nS4hTWoC3fjZHfesYeDPr6BA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53491'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070632.2787
+    'REQUEST_TIME' => 1607070632
+]
+2020-12-04 09:30:57 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-12-04 09:30:57 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'fl5Vugijap_v-yKfXg_Io7pMntJKubv26zOQR16YjHBGEA_jecQu8J-ibNEvW7nS4hTWoC3fjZHfesYeDPr6BA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53492'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070657.5131
+    'REQUEST_TIME' => 1607070657
+]
+2020-12-04 09:33:54 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-12-04 09:33:54 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'Wli8tU9ttPFsi85HpPggQ0KL9Nt311ztO_eDIg4EP2xiFubsPgrwnhzSgAnVrFEyGtO8qRCxaooPvtV7XGZJGA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53595'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070834.3217
+    'REQUEST_TIME' => 1607070834
+]
+2020-12-04 09:34:02 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-12-04 09:34:02 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'Wli8tU9ttPFsi85HpPggQ0KL9Nt311ztO_eDIg4EP2xiFubsPgrwnhzSgAnVrFEyGtO8qRCxaooPvtV7XGZJGA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53596'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070842.8031
+    'REQUEST_TIME' => 1607070842
+]
+2020-12-04 09:34:15 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/update in C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/update', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-12-04 09:34:15 [::1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'XxElQFZ7JJAgfX9dgcxJdOlvkGVb0GzKnsycyKKFjHRnX38ZJxxg_1AkMRPwmDgFsTfYFzy2Wq2qhcqR8Of6AA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53612'
+    'REDIRECT_URL' => '/sigma/admin/site/update'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/sigma/admin/site/update?id=1'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070855.3097
+    'REQUEST_TIME' => 1607070855
+]
+2020-12-04 09:35:18 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: testimonial/site in C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('site', Array)
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('testimonial/sit...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-12-04 09:35:18 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/testimonial/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53620'
+    'REDIRECT_URL' => '/sigma/admin/testimonial/site'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/testimonial/site'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070918.6277
+    'REQUEST_TIME' => 1607070918
+]
+2020-12-04 09:35:32 [::1][4][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: testimonial/site in C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('site', Array)
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('testimonial/sit...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-12-04 09:35:32 [::1][4][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/testimonial/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53632'
+    'REDIRECT_URL' => '/sigma/admin/testimonial/site'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/testimonial/site'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070932.2077
+    'REQUEST_TIME' => 1607070932
+]
+2020-12-04 09:35:40 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: testimonial/site in C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('site', Array)
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('testimonial/sit...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-12-04 09:35:40 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/testimonial/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53638'
+    'REDIRECT_URL' => '/sigma/admin/testimonial/site'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/testimonial/site'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070940.3887
+    'REQUEST_TIME' => 1607070940
+]
+2020-12-04 09:35:47 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][error][Error] Error: Class 'kartik\select2\Select2' not found in C:\xampp\htdocs\sigma\backend\views\menu\_form.php:63
+Stack trace:
+#0 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\sigma\backend\views\menu\create.php(16): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\MenuController))
+#7 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(backend\controllers\MenuController))
+#8 C:\xampp\htdocs\sigma\backend\controllers\MenuController.php(161): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\MenuController->actionCreate()
+#10 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('menu/create', Array)
+#14 C:\xampp\htdocs\sigma\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\sigma\admin\index.php(17): yii\base\Application->run()
+#16 {main}
+2020-12-04 09:35:47 [::1][4][jdjjrn763mf5pq6a44g2og7i2s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy\",2592000]\";}'
+    'advanced-backend' => 'jdjjrn763mf5pq6a44g2og7i2s'
+    '_csrf-backend' => '3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"8NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'fxdD3tJ7Y1_J9iUVGt7Xdgvsdfy5cD__0qeeA9bC_LhHWRmHoxwnMLmva1triqYHU7Q9jt4WCZjm7shahKCKzA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost/sigma/admin/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=a14b059398ffd0a0ae4fc0329acdacc808846c1ee6e06651d04569086f599f3da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22qCcB8nwcY1zj1e35JXfTwPNg5I7-V3Uy%22%2C2592000%5D%22%3B%7D; advanced-backend=jdjjrn763mf5pq6a44g2og7i2s; _csrf-backend=3aa79d8910fb39adf19f4de37e72b69035b6bbf6b8effa583cefd18b0a041ccaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%228NZYqgDopYNNqTqqXXHrgf6g4IVYRbvt%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\WCS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\WCS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\WCS\\AppData\\Roaming\\npm;C:\\Users\\WCS\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\WCS\\AppData\\Local\\Yarn\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/sigma/admin/index.php'
+    'REMOTE_PORT' => '53638'
+    'REDIRECT_URL' => '/sigma/admin/menu/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sigma/admin/menu/create'
+    'SCRIPT_NAME' => '/sigma/admin/index.php'
+    'PHP_SELF' => '/sigma/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1607070947.5413
+    'REQUEST_TIME' => 1607070947
+]
